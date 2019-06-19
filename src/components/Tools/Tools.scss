@@ -1,0 +1,64 @@
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4c4637;
+  }
+  .tools__container {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-gap: 60px;
+    margin: 30px 15px 15px 15px;
+    @media all and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 80px 80px 80px 80px;
+      grid-gap: 40px;
+    }
+  }
+  .tool {
+    height: 80px;
+    width: 80px;
+  }
+  .tool1 {
+    background-image: url("./skills/js.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool2 {
+    background-image: url("./skills/html5.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool3 {
+    background-image: url("./skills/css3.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool4 {
+    background-image: url("./skills/git.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool5 {
+    background-image: url("./skills/github.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool6 {
+    background-image: url("./skills/zeplin.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool7 {
+    background-image: url("./skills/bootstrap.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .tool8 {
+    background-image: url("./skills/trello.png");
+    background-position: center;
+    background-size: cover;
+  }
+  

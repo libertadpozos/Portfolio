@@ -1,0 +1,17 @@
+
+.about-me__container {
+    display: flex;
+    margin: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #4c4637;
+    margin: 30px 15px 15px 15px;
+    @media all and (min-width: 768px) {
+      margin: 50px;
+    }
+  }
+  .about-me__paragraphs {
+    color: #b2ab99;
+    width: 50%;
+  }
