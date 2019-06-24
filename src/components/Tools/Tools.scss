@@ -5,12 +5,16 @@
     align-items: center;
     justify-content: center;
     color: #4c4637;
+    background-color: #FFF9EA;
+    padding: 20px;
+    margin: 50px;
   }
   .tools__container {
     display: grid;
     grid-template-columns: 80px 80px;
     grid-gap: 60px;
     margin: 30px 15px 15px 15px;
+    
     @media all and (min-width: 768px) {
       display: grid;
       grid-template-columns: 80px 80px 80px 80px;
