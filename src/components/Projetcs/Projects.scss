@@ -1,0 +1,39 @@
+.carousel__container{
+    margin: 70px 20px 25px 20px;
+    height: 500px;
+    text-align: center;
+    color: #4c4637;
+    @media all and (min-width: 768px) {
+        margin: 100px 200px 100px 200px;
+      }
+}
+.project__title{
+    margin-bottom: 25px;
+}
+.carousel-caption{
+    color: grey; 
+    background-color: white;
+    border: 5px solid  #ffde59;
+}
+.bd-example{
+    border: 10px solid  #ffde59;
+}
+.a{
+    background-image: url("./images/codewarriors.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.b{
+    background-image: url("./images/ProfileCards.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.c{
+    background-image: url("./images/HP.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
