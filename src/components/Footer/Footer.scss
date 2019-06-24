@@ -1,0 +1,18 @@
+.footer__container{
+    color: grey; 
+    background-color:#ffde59;
+    margin: 150px 0 0 0; 
+    align-items: center;
+}
+
+.rrss__container{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.fab, .fas{
+color: grey;  
+}

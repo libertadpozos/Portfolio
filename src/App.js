@@ -3,6 +3,7 @@ import "./App.scss";
 import AboutMe from "./components/AboutME/AboutMe";
 import Tools from "./components/Tools/Tools";
 import Projects from "./components/Projetcs/Projects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       </div>
       <AboutMe/>
       <Tools/>
-    <Projects/>
-     
+      <Projects/>
+      <Footer/>
     </div>
   );
 }
